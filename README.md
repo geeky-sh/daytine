@@ -25,3 +25,6 @@ API to create timed tasks for a user and track them.
 1. Add <new_package> in requirements.in. Specify the version if you want to install specific version else write only the name
 2. Run `pip-compile requirements.in > requirements.txt`
 3. Run `pip install -r requirements.txt` to install the new package. Make sure virtual environment is active.
+
+## Resources
+- SQLAlchemy query tutorail - https://www.pythoncentral.io/overview-sqlalchemys-expression-language-orm-queries/
