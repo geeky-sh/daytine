@@ -1,5 +1,8 @@
 # daytine
-API  to create timed tasks for a user and track them.
+
+## (Daily + Routine)
+
+API to create timed tasks for a user and track them.
 
 ## Technologies used:
 - [FastAPI](https://fastapi.tiangolo.com/) as framework for building web application
