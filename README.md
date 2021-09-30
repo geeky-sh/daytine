@@ -27,4 +27,4 @@ API to create timed tasks for a user and track them.
 3. Run `pip install -r requirements.txt` to install the new package. Make sure virtual environment is active.
 
 ## Resources
-- SQLAlchemy query tutorail - https://www.pythoncentral.io/overview-sqlalchemys-expression-language-orm-queries/
+- SQLAlchemy query tutorial - https://www.pythoncentral.io/overview-sqlalchemys-expression-language-orm-queries/
