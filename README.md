@@ -2,10 +2,10 @@
 API  to create timed tasks for a user and track them.
 
 ## Technologies used:
-- FastAPI as framework for building web application
-- SQLAlchemy as ORM for db interaction
-- Sqlite as the primary database
-- gvicorn for running the server
+- [FastAPI](https://fastapi.tiangolo.com/) as framework for building web application
+- [SQLAlchemy](https://docs.sqlalchemy.org/en/14/) as ORM for DB interactions
+- [Sqlite](https://www.sqlite.org/index.html) as the primary database
+- [uvicorn](https://www.uvicorn.org/) for running the server
 
 ## How to setup the product
 1. Install [virtualenv](https://realpython.com/python-virtual-environments-a-primer/) and use python3
@@ -14,7 +14,7 @@ API  to create timed tasks for a user and track them.
 4. Run `pip install -r requirements.txt`
 5. Run server - `uvicorn app.main:app --reload`
 
-## To views swagger and API documentation:
+## To view Swagger and Redoc API documentation:
 1. Swagger - http://localhost:8000/docs
 2. Redoc - http://localhost:8000/redoc
 
