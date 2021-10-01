@@ -28,3 +28,8 @@ API to create timed tasks for a user and track them.
 
 ## Resources
 - SQLAlchemy query tutorial - https://www.pythoncentral.io/overview-sqlalchemys-expression-language-orm-queries/
+
+## Deployment steps
+- Configure aws proflie - `aws configure --profile <profile_name>`)
+- Run `sam build --profile <profile_name> --region us-east-1`
+- Run `sam deploy --guided`
