@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "daytine-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1fghej2wq3xw3"
+s3_prefix = "daytine-app"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
