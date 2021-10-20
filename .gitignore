@@ -2,3 +2,5 @@
 *.db
 envproj/
 venv/
+.idea/
+.aws-sam/
