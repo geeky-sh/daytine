@@ -27,6 +27,8 @@ API to create timed tasks for a user and track them.
 3. Run `pip install -r requirements.txt` to install the new package. Make sure virtual environment is active.
 
 ## Alembic
+[Alembic](https://alembic.sqlalchemy.org/en/latest/) is used to do migration versioning
+
 ### Configuration
 `prepend_sys_path = ..` - had to do this so that alembic command recognises it's parent folder as a package. In simple words, due to this, we can do `from app.task.models import Base` in `alembic/env.py`.
 
