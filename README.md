@@ -26,8 +26,8 @@ API to create timed tasks for a user and track them.
 2. Run `pip-compile requirements.in > requirements.txt`
 3. Run `pip install -r requirements.txt` to install the new package. Make sure virtual environment is active.
 
-# Alembic
-## Configuration
+## Alembic
+### Configuration
 `prepend_sys_path = ..` - had to do this so that alembic command recognises it's parent folder as a package. In simple words, due to this, we can do `from app.task.models import Base` in `alembic/env.py`.
 
 (This is a classic `ImportNotFound` error due to python unable to recognise a package. See [here](https://stackoverflow.com/questions/43728431/relative-imports-modulenotfounderror-no-module-named-x). Thoughtfully, amembic provides a way to resolve this issue via its `prepend_sys_path` option)
