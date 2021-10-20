@@ -34,7 +34,7 @@ API to create timed tasks for a user and track them.
 
 (This is a classic `ImportNotFound` error due to python unable to recognise a package. See [here](https://stackoverflow.com/questions/43728431/relative-imports-modulenotfounderror-no-module-named-x). Thoughtfully, amembic provides a way to resolve this issue via its `prepend_sys_path` option)
 
-Comparision to Django Migration Framework:
+Comparison to Django Migration Framework:
 - alembic versions is django's migrations
 - alembic upgrade is django's migrate
 - alembic history is django's showmigrations
