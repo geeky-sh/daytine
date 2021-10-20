@@ -2,4 +2,5 @@ fastapi
 sqlalchemy
 uvicorn[standard]
 mangum
-
+psycopg2-binary
+alembic
